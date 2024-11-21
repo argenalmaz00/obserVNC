@@ -1,0 +1,16 @@
+plugins {
+    id 'java'
+}
+
+group = 'kg.argenalmaz00.ObserVNC'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+//    testImplementation platform('org.junit:junit-bom:5.10.0')
+//    testImplementation 'org.junit.jupiter:junit-jupiter'
+    implementation 'com.shinyhut:vernacular:1.14'
+}
